@@ -234,7 +234,7 @@ Difyクラウド版は内網APIサービスにアクセスできないため、�
 2. ダウンロードが完了したら、ダウンロードディレクトリに移動し、以下の説明に従って圧縮ファイルを解凍し、初期化スクリプトを実行します。
    * ```Shell
      $ unzip /path/to/ngrok.zip
-     $ ./ngrok config add-authtoken 你的Token
+     $ ./ngrok config add-authtoken あなたのトークン
      ```
 3. ローカルAPIサービスのポートを確認します：
 
@@ -243,7 +243,7 @@ Difyクラウド版は内網APIサービスにアクセスできないため、�
 次に以下のコマンドを実行して開始します：
 
 *   ```Shell
-    $ ./ngrok http 端口号
+    $ ./ngrok http ポート番号
     ```
 
     成功例は以下の通りです：
