@@ -7,13 +7,13 @@
 
 モジュールの機能を拡張する前に、APIと認証用のAPIキー（Difyが自動生成することも可能）を準備する必要があります。
 
-対応するモジュール機能を開発するだけでなく、DifyがAPIを正しく呼び出せるよう、以下の規範にも従う必要があります。
+対応するモジュール機能を開発するだけでなく、DifyがAPIを正しく呼び出せるよう、以下の仕様にも従う必要があります。
 
 <figure><img src="../../../.gitbook/assets/screenshot-20231128-104353.png" alt=""><figcaption><p>APIに基づくエクステンション</p></figcaption></figure>
 
-### API規範 <a href="#usercontentapi-gui-fan" id="usercontentapi-gui-fan"></a>
+### API仕様 <a href="#usercontentapi-gui-fan" id="usercontentapi-gui-fan"></a>
 
-Difyは以下の規範に従ってインターフェースを呼び出します：
+Difyは以下の仕様に従ってインターフェースを呼び出します：
 
 ```
 POST {Your-API-Endpoint}
@@ -41,7 +41,7 @@ POST {Your-API-Endpoint}
 
 ```
 {
-    ...  // APIレスポンスの内容、異なるエクステンションポイントのレスポンスは各モジュールの規範に従います
+    ...  // APIレスポンスの内容、異なるエクステンションポイントのレスポンスは各モジュールの仕様に従います
 }
 ```
 
